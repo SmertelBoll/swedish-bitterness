@@ -132,6 +132,10 @@ h6 {
   padding: 0px 50px 0px 0px;
 }
 
+.hover :hover {
+  background-color: #4d742b;
+}
+
 .header-footer__logo {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -333,9 +337,9 @@ h6 {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  height: 100%;
+  position: relative;
+  left: 1px;
 }
 
 .mainpage__but {
@@ -634,6 +638,8 @@ h6 {
 }
 
 .problem-in-you__but {
+  width: 100%;
+  text-align: center;
   line-height: 22px;
   font-weight: 700;
   padding: 20px 15%;
@@ -1679,6 +1685,8 @@ h6 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  position: relative;
+  left: 1px;
 }
 
 .guarantee__but {

@@ -39,6 +39,12 @@ $cont: 275px;
    }
 }
 
+.hover {
+   :hover {
+      background-color: #4d742b;
+   }
+}
+
 .header-footer {
    &__logo {
       align-items: center;
@@ -208,7 +214,9 @@ $cont: 275px;
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
-      flex: 1 1 auto;
+      height: 100%;
+      position: relative;
+      left: 1px;
    }
 
    &__but {
@@ -485,6 +493,8 @@ $cont: 275px;
    }
 
    &__but {
+      width: 100%;
+      text-align: center;
       line-height: 22px;
       font-weight: 700;
       padding: 20px 15%;
@@ -1411,6 +1421,8 @@ $cont: 275px;
    &__button {
       display: flex;
       justify-content: flex-end;
+      position: relative;
+      left: 1px;
    }
 
    &__but {
